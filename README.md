@@ -4,7 +4,7 @@ Requirements:
 1. Python 3.x
 2. pip install scapy
 
-Usage
+How to Use:
 1. Open the script file and set the target IP range using CIDR notation.
 2. Run the script:
 3. View the detected devices in the terminal.
