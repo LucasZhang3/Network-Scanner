@@ -1,3 +1,5 @@
+[Project Idea](https://cybercademy.org/create-a-basic-network-scanner-overview/)
+
 A local network scanner that uses ARP request to detect IP and MAC addresses
 
 Requirements:
