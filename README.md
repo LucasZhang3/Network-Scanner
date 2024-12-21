@@ -7,7 +7,7 @@ Requirements:
 
 How to Use:
 1. Run the script
-2. Input IP and Subnet
+2. Input IP and Subnet (found via command prompt ---> ipconfig)
 3. Press Scan
 
 ![image](https://github.com/user-attachments/assets/499345ef-be34-4745-8778-875873a1493b)
