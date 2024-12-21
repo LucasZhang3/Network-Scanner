@@ -47,8 +47,8 @@ with dpg.handler_registry():
 
 with dpg.window(label="Scanner", width=500, height=400):
     dpg.add_text("Enter IP and Mask:")
-    dpg.add_input_text(label="IP", tag="ip_input", default_value="192.168.0.39")
-    dpg.add_input_text(label="Subnet", tag="subnet_input", default_value="255.255.255.0")
+    dpg.add_input_text(label="IP", tag="ip_input", default_value="")
+    dpg.add_input_text(label="Subnet", tag="subnet_input", default_value="")
     dpg.add_button(label="Scan", callback=start_scan)
     dpg.add_text("Results:")
     with dpg.child_window(width=480, height=200, tag="results_container", autosize_x=False, autosize_y=False, no_scrollbar=False):
@@ -58,7 +58,7 @@ with dpg.table(header_row=True, tag="results_table", parent="results_container")
     dpg.add_table_column(label="IP Address")
     dpg.add_table_column(label="MAC Address")
 
-dpg.create_viewport(title="Lucas Sigma", width=500, height=400)
+dpg.create_viewport(title="Network Scanner", width=500, height=400)
 dpg.setup_dearpygui()
 dpg.show_viewport()
 
